@@ -1,0 +1,17 @@
+.item {
+  display: block;
+  height: 40px;
+  margin-bottom: 10px;
+}
+
+.item:nth-child(3n-2) {
+  background-color: #ff4081;
+}
+
+.item:nth-child(3n-1) {
+  background-color: #ff9800;
+}
+
+.item:nth-child(3n) {
+  background-color: #4caf50;
+}
